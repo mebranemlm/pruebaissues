@@ -105,7 +105,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    color: #BB0505;
+    //color: #BB0505;
 }
 .td-medirian span {
     width: 40px;
@@ -124,9 +124,13 @@
 }
 .td-medirian .td-icon-am {
     top: 40px;
+    // color: #10ACAE;
+    color: #009928;
 }
 .td-medirian .td-icon-pm {
     bottom: 40px;
+    color: #BB0505;
+    //color: #7810A4;
 }
 .td-medirian .td-icon-am.td-on {
     top: 26px;
