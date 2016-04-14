@@ -14,12 +14,13 @@
                 _td_event = null,
                 _td_options = $.extend({
 
-                    format: 'h:mm a',
+                    format: 'h:mm A',
                     autoswitch: false,
-                    meridians: false,
+                    meridians: true,
                     mousewheel: false,
                     setCurrentTime: true,
-                    init_animation: "fadein",
+                    // init_animation: "fadein",
+                    init_animation: "dropdown",
                     primaryColor: "#1977CC",
                     borderColor: "#1977CC",
                     backgroundColor: "#FFF",
